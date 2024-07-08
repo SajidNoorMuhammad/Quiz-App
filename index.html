@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="https://kit.fontawesome.com/ab27867c5e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="box" class="box">
+        <h1 class="start">Registration Form</h1>
+        <div class="row">
+            <div class="col">
+                <label>
+                    Full Name
+                    <br>
+                    <input id="fullName" type="text" placeholder="Enter FullName">
+                </label>
+            </div>
+            <br>
+            <div class="col">
+                <label>
+                    UserName
+                    <br>
+                    <input id="username" type="text" placeholder="Enter UserName">
+                </label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <label>
+                    Email
+                    <br>
+                    <input id="email" type="email" placeholder="Enter Email">
+                </label>
+            </div>
+            <br>
+            <div class="col">
+                <label>
+                    Phone Number
+                    <br>
+                    <input id="phone" type="number" placeholder="Enter Phone Number">
+                </label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <label>
+                    Password
+                    <br>
+                    <input id="password" type="password" placeholder="Enter Password">
+                </label>
+            </div>
+            <br>
+            <div class="col">
+                <label>
+                    Re-type Password
+                    <br>
+                    <input id="repassword" type="password" placeholder="Enter Re-type Password">
+                </label>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <label>
+                    Address
+                    <br>
+                    <input id="address" type="address" placeholder="Enter Address">
+                </label>
+            </div>
+            <br>
+            <div class="col">
+                <label>
+                    City
+                    <br>
+                    <input id="city" type="text" placeholder="Enter City">
+                </label>
+            </div>
+        </div>
+        <button class="btn-1" onclick="signup()">Submit</button>
+        <button onclick="login()" class="btn-2" href="">Login</button>
+
+    </div>
+
+
+
+
+    <div id="loginbox" class="loginbox">
+        <h1 class="start str">Login Form</h1>
+        <label>
+            Email
+            <br>
+            <input id="l-email" type="email" placeholder="Enter Email">
+        </label>
+        <br>
+        <label>
+            UserName
+            <br>
+            <input id="l-username" type="text" placeholder="Enter UserName">
+        </label>
+        <br>
+        <label>
+            Password
+            <br>
+            <input id="l-password" type="password" placeholder="Enter Password">
+        </label>
+
+        <button onclick="loginPage()" class="btn-3">Login</button>
+        <a>Don't Have Account?</a><a onclick="register()" class="tag-1" href="">Register Here</a>
+
+    </div>
+
+
+    <div id="container" class="container">
+        <div class="front">
+            <img class="quiz-image" src="Images/quiz.avif" alt="">
+        </div>
+
+        <h1 class="q">Hi, <span id="username"></span> <i class="fa-solid fa-hand-wave"></i></h1>
+        <span class="para1">Welcome to the Sajid quiz portal. Select your course below to take a quiz.</span>
+
+        <div class="row">
+            <div id="col" class="col">
+                <div class="con1">
+                    <h5 class="heading">Web & App Development</h5>
+                    <h5 class="heading2">HTML</h5>
+                    <p class="para">1 Subject</p>
+                    <button class="btn1" onclick="htmlquiz()">Join</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="con1">
+                    <h5 class="heading">Web & App Development</h5>
+                    <h5 class="heading2">CSS</h5>
+                    <p class="para">1 Subject</p>
+                    <button class="btn1" onclick="cssquiz()">Join</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="con1">
+                    <h5 class="heading">Web & App Development</h5>
+                    <h5 class="heading2">JavaScript</h5>
+                    <p class="para">1 Subject</p>
+                    <button class="btn1" onclick="jsquiz()">Join</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="col" class="col">
+                <div class="con1">
+                    <h5 class="heading">Web & App Development</h5>
+                    <h5 class="heading2">Advance JavaScript</h5>
+                    <p class="para">1 Subject</p>
+                    <button class="btn1">Join</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="con1">
+                    <h5 class="heading">Web & App Development</h5>
+                    <h5 class="heading2">TypeScript</h5>
+                    <p class="para">1 Subject</p>
+                    <button class="btn1">Join</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="con1">
+                    <h5 class="heading">Web & App Development</h5>
+                    <h5 class="heading2">Github</h5>
+                    <p class="para">1 Subject</p>
+                    <button class="btn1">Join</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div id="col" class="col">
+                <div class="con1">
+                    <h5 class="heading">Web & App Development</h5>
+                    <h5 class="heading2">React JS</h5>
+                    <p class="para">1 Subject</p>
+                    <button class="btn1">Join</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="con1">
+                    <h5 class="heading">Generative AI & Chatbot Batch-3</h5>
+                    <h5 class="heading2">JavaScript</h5>
+                    <p class="para">1 Subject</p>
+                    <button class="btn1">Join</button>
+                </div>
+            </div>
+            <div class="col">
+                <div class="con1">
+                    <h5 class="heading">Python</h5>
+                    <h5 class="heading2">Python</h5>
+                    <p class="para">1 Subject</p>
+                    <button class="btn1">Join</button>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+
+    <div id="quiz-container" class="quiz-container">
+        <div id="login-container">
+            <h2 class="heading-1">Enter Quiz Password Below</h2>
+            <p class="para2">Type Quiz Password</p>
+            <p class="para2">Passing Marks: 70%</p>
+            <input type="password" id="password-2" placeholder="Enter Password">
+            <button class="btn-start" id="start-btn">Start Quiz</button>
+        </div>
+        <div id="question-container" style="display: none;">
+            <h2 class="heading-2">Quiz Questions</h2>
+            <!-- <div id="timer"> 5:00</div> -->
+            <h2 class="question" id="question"></h2>
+            <div class="options" id="options"></div>
+        </div>
+        <div id="result-container" style="display: none;">
+            <h2 class="heading-3">Quiz Result</h2>
+            <p id="score"></p>
+            <p id="correct-answers"></p>
+            <p id="passing-ratio"></p>
+            <p id="remarks"></p>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
