@@ -290,16 +290,16 @@ label {
     flex: 1 0 0%
 }
 
-/* input {
+input {
     margin: 0;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit
-} */
-
-label {
-    display: inline-block
 }
+
+/* label {
+    display: inline-block
+} */
 
 .row {
     padding-top: 10px;
