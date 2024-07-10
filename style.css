@@ -395,14 +395,14 @@ input {
     margin-bottom: 5%;
 }
 
-/* .btn-3:hover {
+.btn-3:hover {
     background-color: black;
     color: white;
-} */
-
-label {
-    margin-top: 2%;
 }
+
+/* label {
+    margin-top: 2%;
+} */
 
 .tag-1 {
     text-decoration: underline;
