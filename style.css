@@ -322,14 +322,10 @@ label {
     font-weight: bold;
 }
 
-/* .btn-1:hover {
+.btn-1:hover {
     background-color: black;
     color: white;
-} */
-
-/* .box{
-  display: none;  
-} */
+}
 
 
 input {
