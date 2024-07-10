@@ -404,14 +404,14 @@ label {
     margin-top: 2%;
 }
 
-/* .tag-1 {
+.tag-1 {
     text-decoration: underline;
     color: blue;
-} */
-
-.loginbox {
-    display: none;
 }
+
+/* .loginbox {
+    display: none;
+} */
 
 
 @media only screen and (max-width: 1200px) {
