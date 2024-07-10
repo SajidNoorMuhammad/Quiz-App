@@ -5,16 +5,16 @@ body {
     -webkit-font-smoothing: antialiased;
 }
 
-/* .quiz-container {
+.quiz-container {
     margin: 0 auto;
-} */
+}
 
-.question {
+/* .question {
     font-size: 1.2em;
     margin-bottom: 20px;
     text-align: left;
     margin-left: 2%;
-}
+} */
 
 .para1{
     color: black;
