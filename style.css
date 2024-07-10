@@ -109,22 +109,22 @@ h2 {
     background-color: #0056b3;
 }
 
-/* .heading-1 {
+.heading-1 {
     color: #0056b3;
     font-size: 30px;
     text-decoration: underline;
     margin-top: 8%;
     margin-bottom: 10%;
-} */
+}
 
-#password-1 {
+/* #password-1 {
     padding: 15px 10px;
     border-radius: 8px;
     border-color: #0056b3;
     font-size: 20px;
     margin-top: 8%;
     margin-bottom: 10%;
-}
+} */
 
 .btn-start {
     margin-left: 3%;
