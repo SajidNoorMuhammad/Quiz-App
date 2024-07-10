@@ -40,7 +40,7 @@ body {
     background-color: #f0f0f0;
 }
 
-/* .btn-start {
+.btn-start {
     margin-top: 20px;
     padding: 10px 20px;
     background-color: #007bff;
@@ -49,11 +49,11 @@ body {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-} */
-
-.btn-start:hover {
-    background-color: #0056b3;
 }
+
+/* .btn-start:hover {
+    background-color: #0056b3;
+} */
 
 .quiz-container {
     max-width: 600px;
