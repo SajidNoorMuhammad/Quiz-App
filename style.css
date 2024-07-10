@@ -313,19 +313,19 @@ label {
     font-family: myfont;
 }
 
-/* .btn-1 {
+.btn-1 {
     padding: 10px 20px;
     border-radius: 8px;
     border: none;
     font-size: 20px;
     margin-top: 4%;
     font-weight: bold;
-} */
+}
 
-.btn-1:hover {
+/* .btn-1:hover {
     background-color: black;
     color: white;
-}
+} */
 
 /* .box{
   display: none;  
