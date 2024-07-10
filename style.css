@@ -159,17 +159,17 @@ h2 {
     font-size: 1.2em;
     margin-top: 10px;
 }
-/* .heading-3{
+.heading-3{
     font-size: 35px;
     color: #0056b3;
     font-weight: bold;
     text-decoration: underline;
-} */
+}
 
-#correct-answers{
+/* #correct-answers{
     font-size: 20px;
     font-weight: bold;
-}
+} */
 
 #passing-ratio{
     font-size: 20px;
