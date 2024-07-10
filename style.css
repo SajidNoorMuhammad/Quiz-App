@@ -343,12 +343,12 @@ input {
     border-radius: 8px;
 }
 
-/* .btn-2:hover {
+.btn-2:hover {
     background-color: black;
     color: white;
-} */
+}
 
-.loginbox {
+/* .loginbox {
     background-color: white;
     width: 30%;
     margin-left: 35%;
@@ -356,7 +356,7 @@ input {
     padding: 20px 30px;
     border-radius: 10px;
     background-color: #CDCDCD;
-}
+} */
 
 .str{
     text-align: left;
