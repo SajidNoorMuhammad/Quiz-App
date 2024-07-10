@@ -166,17 +166,17 @@ h2 {
     text-decoration: underline;
 }
 
-/* #correct-answers{
+#correct-answers{
     font-size: 20px;
     font-weight: bold;
-} */
+}
 
-#passing-ratio{
+/* #passing-ratio{
     font-size: 20px;
     font-weight: bold;
     border-radius: 50%;
     border-color: #0056b3;
-}
+} */
 
 #score{
     font-size: 20px;
