@@ -409,12 +409,12 @@ label {
     color: blue;
 }
 
-/* .loginbox {
+.loginbox {
     display: none;
-} */
+}
 
 
-@media only screen and (max-width: 1200px) {
+/* @media only screen and (max-width: 1200px) { */
     input {
         width: 100%;
     }
