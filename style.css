@@ -16,17 +16,16 @@ body {
     margin-left: 2%;
 }
 
-/* .para1{
+.para1{
     color: black;
     font-weight: 450;
     font-family:  Josefin-Sans;
-} */
+}
 
-.options {
+/* .options {
     display: flex;
     flex-direction: column;
-    /* align-items: center; */
-}
+} */
 
 .option {
     margin: 10px 0;
