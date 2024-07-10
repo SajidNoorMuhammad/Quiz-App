@@ -1,15 +1,13 @@
-/* body {
+body {
     font-family: Josefin-Sans;
     padding: 0px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
-} */
-
-.quiz-container {
-    /* max-width: 600px; */
-    margin: 0 auto;
-    /* text-align: center; */
 }
+
+/* .quiz-container {
+    margin: 0 auto;
+} */
 
 .question {
     font-size: 1.2em;
