@@ -400,14 +400,14 @@ input {
     color: white;
 }
 
-/* label {
+label {
     margin-top: 2%;
-} */
+}
 
-.tag-1 {
+/* .tag-1 {
     text-decoration: underline;
     color: blue;
-}
+} */
 
 .loginbox {
     display: none;
