@@ -424,14 +424,14 @@ label {
         margin-left: 1%;
     }
 
-    /* .loginbox{
+    .loginbox{
         width: 50%;
         margin-left: 10%;
-    } */
-
-    .btn-2{
-        margin-left: 50%;
     }
+
+    /* .btn-2{
+        margin-left: 50%;
+    } */
 }
 
 @media only screen and (max-width: 500px) {
