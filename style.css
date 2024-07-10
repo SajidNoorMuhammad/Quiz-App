@@ -249,14 +249,14 @@ body {
     src: url(Fonts/RanchinoScript_PERSONAL_USE_ONLY.otf);
 }
 
-/* .box {
+.box {
     background-color: white;
     width: 50%;
-} */
-
-label {
-    font-size: 20px;
 }
+
+/* label {
+    font-size: 20px;
+} */
 
 .box {
     background-color: white;
