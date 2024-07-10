@@ -348,7 +348,7 @@ input {
     color: white;
 }
 
-/* .loginbox {
+.loginbox {
     background-color: white;
     width: 30%;
     margin-left: 35%;
@@ -356,11 +356,11 @@ input {
     padding: 20px 30px;
     border-radius: 10px;
     background-color: #CDCDCD;
-} */
-
-.str{
-    text-align: left;
 }
+
+/* .str{
+    text-align: left;
+} */
 
 .btn-2{
     margin-left: 59%;
