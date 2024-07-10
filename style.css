@@ -209,7 +209,7 @@ h2 {
     font-weight: 500;
 }
 
-/* .btn1{
+.btn1{
     width: 90%;
     opacity: 1;
     background-color: rgb(255, 255, 255);
@@ -217,16 +217,16 @@ h2 {
     color: rgb(13, 109, 183);
     padding: 5px 10px;
     font-weight: 500;
-} */
+}
 
-.con1{
+/* .con1{
     width: 100%;
     padding: 40px 35px;
     margin-top: 8%;
     opacity: 1;
     border: 1px solid #CDCDCD;
     border-radius: 5px;
-}
+} */
 
 .q{
     color: #0056b3;
