@@ -297,13 +297,13 @@ input {
     line-height: inherit
 }
 
-/* label {
+label {
     display: inline-block
-} */
-
-.row {
-    padding-top: 10px;
 }
+
+/* .row {
+    padding-top: 10px;
+} */
 
 .start {
     font-size: 50px;
