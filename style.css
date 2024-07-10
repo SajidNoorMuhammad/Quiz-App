@@ -9,18 +9,18 @@ body {
     margin: 0 auto;
 }
 
-/* .question {
+.question {
     font-size: 1.2em;
     margin-bottom: 20px;
     text-align: left;
     margin-left: 2%;
-} */
+}
 
-.para1{
+/* .para1{
     color: black;
     font-weight: 450;
     font-family:  Josefin-Sans;
-}
+} */
 
 .options {
     display: flex;
