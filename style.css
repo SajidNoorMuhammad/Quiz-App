@@ -89,12 +89,12 @@ h2 {
     transition: border-color 0.3s ease;
 }
 
-/* .form-control:focus {
+.form-control:focus {
     outline: none;
     border-color: #007bff;
-} */
+}
 
-.btn-start {
+/* .btn-start {
     background-color: #007bff;
     color: #fff;
     border: none;
@@ -103,7 +103,7 @@ h2 {
     font-size: 1em;
     cursor: pointer;
     transition: background-color 0.3s ease;
-}
+} */
 
 .btn-start:hover {
     background-color: #0056b3;
