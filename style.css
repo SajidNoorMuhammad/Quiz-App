@@ -238,16 +238,16 @@ h2 {
 }
 
 
-/* body {
+body {
     display: flex;
     align-items: center;
     background-color: black;
-} */
+}
 
-@font-face {
+/* @font-face {
     font-family: myfont;
     src: url(Fonts/RanchinoScript_PERSONAL_USE_ONLY.otf);
-}
+} */
 
 .box {
     background-color: white;
