@@ -366,14 +366,14 @@ input {
     margin-left: 59%;
 }
 
-/* .box{
+.box{
     margin-left: 25%;
     background-color: #CDCDCD;
-} */
-
-#l-email{
-    width: 100%;
 }
+
+/* #l-email{
+    width: 100%;
+} */
 
 #timer {
     position: absolute;
