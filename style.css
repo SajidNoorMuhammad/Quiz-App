@@ -55,7 +55,7 @@ body {
     background-color: #0056b3;
 }
 
-/* .quiz-container {
+.quiz-container {
     max-width: 600px;
     width: 100%;
     text-align: center;
@@ -65,11 +65,11 @@ body {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
     margin-top: 8%;
     display: none;
-} */
-
-.container {
-    margin-bottom: 20px;
 }
+
+/* .container {
+    margin-bottom: 20px;
+} */
 
 h2 {
     font-size: 1.5em;
