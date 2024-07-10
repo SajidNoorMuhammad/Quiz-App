@@ -219,18 +219,18 @@ h2 {
     font-weight: 500;
 }
 
-/* .con1{
+.con1{
     width: 100%;
     padding: 40px 35px;
     margin-top: 8%;
     opacity: 1;
     border: 1px solid #CDCDCD;
     border-radius: 5px;
-} */
-
-.q{
-    color: #0056b3;
 }
+
+/* .q{
+    color: #0056b3;
+} */
 
 .para2{
     font-size: 20px;
