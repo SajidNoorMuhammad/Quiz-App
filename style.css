@@ -415,14 +415,14 @@ label {
 
 
 @media only screen and (max-width: 1200px) {
-    /* input {
+    input {
         width: 100%;
-    } */
+    }
 
-    .box {
+    /* .box {
         width: 100%;
         margin-left: 1%;
-    }
+    } */
 
     .loginbox{
         width: 50%;
