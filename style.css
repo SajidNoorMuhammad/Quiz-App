@@ -171,18 +171,18 @@ h2 {
     font-weight: bold;
 }
 
-/* #passing-ratio{
+#passing-ratio{
     font-size: 20px;
     font-weight: bold;
     border-radius: 50%;
     border-color: #0056b3;
-} */
+}
 
-#score{
+/* #score{
     font-size: 20px;
     font-weight: bold;
     
-}
+} */
 
 /* .quiz-container{
     display: none;
