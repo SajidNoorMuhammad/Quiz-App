@@ -146,19 +146,19 @@ h2 {
     margin-top: 20px;
 }
 
-/* #result-details p {
+#result-details p {
     font-size: 1.2em;
     margin: 10px 0;
-} */
+}
 
-.passing-ratio {
+/* .passing-ratio {
     display: inline-block;
     padding: 10px;
     border: 2px solid #007bff;
     border-radius: 50%;
     font-size: 1.2em;
     margin-top: 10px;
-}
+} */
 .heading-3{
     font-size: 35px;
     color: #0056b3;
