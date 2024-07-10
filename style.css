@@ -384,7 +384,7 @@ input {
     color: #333;
 }
 
-/* .btn-3 {
+.btn-3 {
     padding: 10px 20px;
     border-radius: 8px;
     border: none;
@@ -393,12 +393,12 @@ input {
     font-weight: bold;
     width: 95%;
     margin-bottom: 5%;
-} */
+}
 
-.btn-3:hover {
+/* .btn-3:hover {
     background-color: black;
     color: white;
-}
+} */
 
 label {
     margin-top: 2%;
