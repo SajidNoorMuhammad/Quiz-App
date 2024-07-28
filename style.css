@@ -194,14 +194,16 @@ h2 {
 
 .heading{
     font-weight: 600;
-    font-size: 25px;
+    font-size: 22px;
     color: black;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .heading2{
     font-weight: 600;
     color: black;
-    padding-top: 10px;
+    padding-top: 5px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .para{
@@ -221,8 +223,8 @@ h2 {
 
 .con1{
     width: 100%;
-    padding: 40px 35px;
-    margin-top: 8%;
+    padding: 20px 35px;
+    margin-top: 5%;
     opacity: 1;
     border: 1px solid #CDCDCD;
     border-radius: 5px;
@@ -448,5 +450,5 @@ label {
 }
 
 .container{
-    display: none;
+    /* display: none; */
 }
